@@ -1,0 +1,137 @@
+body {
+    background-color: grey;
+    background-image: url(./Best\ Wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
+    height: 100vh;
+}
+.container  {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 150px;
+    position: relative;
+}
+.left-column {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background-color: tomato;
+    background-image: url(./Best\ Wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.sign-in {
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    padding-top: 70px;
+}
+.top-text {
+    display: inline-block;
+color: white;
+width: 100%;
+}
+.main-text {
+display: inline-block;
+color: white;
+margin-top: 120px;
+width: 100%;
+}
+.bottom-text {
+display: inline-block;
+color: white;
+width: 100%;
+margin-top: 90px;
+}
+.sign-in > a {
+display: inline-block;
+color: white;
+text-decoration: none;
+margin-top: 15px;
+padding: 8px;
+padding-left: 30px;
+padding-right: 30px;
+border: solid white 1px;
+border-radius: 5px;
+text-transform: uppercase;
+font-size: 13px;
+}
+.sign-in > a:hover {
+    box-shadow: 2px 2px 6px 2px rgb(209, 207, 207);
+}
+.right-column {
+    display: inline-block;
+    width: 55%;
+    float: left;
+    background-color: white;
+    float: right;
+}
+.form   {
+    display: inline-block;
+    padding: 50px;
+    width: 100%;
+}
+/* .name-lastname {
+    display: inline-block;
+    width: 100%; */
+.form > .name {
+display: inline-block;
+width: 40%;
+float: left;
+}
+.form > .last-name {
+display: inline-block;
+width: 50%;
+margin-left: 10%;
+}
+.sign-column {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+label {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+}
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(235, 232, 232) 1.5px;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+
+}
+.btn-sign {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid rgb(27, 255, 27) 1.5px;
+    background-color: #88D89C;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn-sign:hover {
+    background-color: #4fc46c;
+    box-shadow: 1px 1px 5px 1px rgb(206, 203, 203);
+}
+
